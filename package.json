@@ -1,0 +1,24 @@
+{
+  "name": "hc-campsite-availability",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "iframe-resizer": "^4.3.1",
+    "vue-router": "^4.0.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "sass": "^1.32.8"
+  }
+}
