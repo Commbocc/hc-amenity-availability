@@ -1,3 +1,9 @@
+<script setup>
+import { locations, fetchLocations } from "../lib/locations";
+
+fetchLocations();
+</script>
+
 <template>
   <div v-if="locations.loading" class="text-center my-5">
     <div class="spinner-border" role="status">
@@ -20,13 +26,3 @@
     No locations are offering programming at this time.
   </div>
 </template>
-
-<script>
-import { locations, fetchLocations } from "../lib/locations";
-export default {
-  setup() {
-    fetchLocations();
-    return { locations };
-  },
-};
-</script>
